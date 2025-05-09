@@ -1,0 +1,96 @@
+.nunitouniquifier {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+body {
+    background-image: url("../img/les.jpg");
+    min-height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.prosto-one-regular {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 57.33px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.48) 100% );
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 8px; margin-bottom: 8px;
+}
+
+small {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    font-family: "Prosto One", sans-serif;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.24) 50%, rgba(255, 255, 255, 0.16) 100% );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.24) 48%, rgba(255, 255, 255, 0.42) 100% );
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px; margin-top: 0px; margin-bottom: 32px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.48) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 16px 32px;
+}
+
+.knopka {
+color: white;
+font-size: 16px;
+font-family: "Nunito", sans-serif;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.48) 100% );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-decoration: none;
+}
+
+.button:hover {transform: scale(1.08);transition: 0.32s;}
+
+.button {
+    background-color: red;
+    display: inline-block;
+    padding: 16px 0px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: 0.42s;
+}
+
+img {
+    pointer-events: none;
+}
+
+.center1 {
+    margin: 18% 0%;
+}
+
